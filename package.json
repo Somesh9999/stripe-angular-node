@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start:server": "nodemon server.js"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,13 @@
     "@angular/platform-browser": "~11.0.5",
     "@angular/platform-browser-dynamic": "~11.0.5",
     "@angular/router": "~11.0.5",
+    "@stripe/stripe-js": "^1.11.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "ng-stripe-checkout": "^1.0.4",
     "rxjs": "~6.6.0",
+    "stripe": "^8.129.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
